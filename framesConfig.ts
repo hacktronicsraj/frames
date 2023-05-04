@@ -13,10 +13,10 @@ const scopes = [
 ];
 
 const framesConfig = {
-    databaseURL: '', // Your Postgress database url
+    databaseURL: 'postgres://postgres:Amazonkosam121@db.aajmwdzslstomuslenhr.supabase.co:6543/postgres', // Your Postgress database url
     externalApis: {
-        tmdbApiKey: '', // Your TMDB API key.
-        fanArtApiKey: '', // Your fanart.tv API key.
+        tmdbApiKey: '70721cad17fed469da7f2cb0f8a54e3b', // Your TMDB API key.
+        fanArtApiKey: '80d1c44e9b315f0c1963857e4d671a85', // Your fanart.tv API key.
         realTimeApiKey: '' // Eventually this would be an api key for the Phoenix channels realtime api I am trying to make public.
     },
     library: {
